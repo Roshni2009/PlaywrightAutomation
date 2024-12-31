@@ -1,0 +1,18 @@
+[
+  {
+    "userName": "Administrator",
+    "password": "Password@123",
+    "name": "dataworld",
+    "loginName": "dataworld",
+    "userPassword": "@1234567",
+    "email": "dataworld@ot.com"
+  },
+  {
+    "userName": "Administrator",
+    "password": "Password@123",
+    "name": "mumma",
+    "loginName": "mumma",
+    "userPassword": "Password@2345678",
+    "email": "mumma@ot.com"
+  }
+]
