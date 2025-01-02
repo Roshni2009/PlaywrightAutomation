@@ -1,4 +1,4 @@
-const { Before, After, BeforeStep, AfterStep, Status, AfterAll } =require("@cucumber/cucumber");
+const { Before, After, AfterStep, Status } =require("@cucumber/cucumber");
 const { LoginPage } = require('../../pageObjects/LoginPage')
 const { PageLogin } = require('../../pageObjects/PageLogin')
 const playwright = require("@playwright/test");
@@ -18,14 +18,6 @@ Before(async function() {
 After(async function () {
     console.log("Execution Completed Successfully");
     
-});
-
-// AfterAll(async function({browser}) {
-//     await browser.close();
-// });
-
-BeforeStep(function(){
-
 });
 
 AfterStep( async function ({result}) {
